@@ -1,0 +1,38 @@
+  html,
+  body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .row {
+            margin: 4px 0;
+        }
+        .row input {
+            font-size: 19px;
+            margin: 0;
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+        button {
+            width: 51px;
+            background-color: rgb(163, 195, 224);
+            padding: 21px;
+            margin: 0 3px;
+            border: 2px solid black;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .buttons{
+            display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
